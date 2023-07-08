@@ -1,0 +1,25 @@
+:root {
+  --GrayishBlue: hsl(237, 18%, 59%);
+  --SoftRed: hsl(345, 95%, 68%);
+  --White: hsl(0, 0%, 100%);
+  --DeSaturatedBlue: hsl(236, 21%, 26%);
+  --DarkBlue: hsl(235, 16%, 14%);
+  --Black: hsl(234, 17%, 12%);
+}
+
+
+.App {
+  background-image: url('./assets/pattern-hills.svg'), url('./assets/bg-stars.svg'), linear-gradient(var(--Black), var(--DarkBlue),var(--DeSaturatedBlue)) ;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: clamp(.75rem, 1.2vw, .95rem);
+  overflow: hidden;
+}
