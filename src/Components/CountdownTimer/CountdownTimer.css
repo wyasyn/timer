@@ -46,6 +46,9 @@
 }
 
 .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     position: relative;
     font-size: clamp(1.5rem, 2vw, 2.5rem);
