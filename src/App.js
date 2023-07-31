@@ -22,7 +22,7 @@ function App() {
         </div>
      </div>
         <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer' className='link'>Frontend Mentor</a>. Coded by <a href="https://walumyas.netlify.app" target="_blank" rel='noreferrer' className='link'>Yasin Walum</a>.
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer' className='link'>Frontend Mentor</a>. Coded by <a href="https://ywalum.com" target="_blank" rel='noreferrer' className='link'>Yasin Walum</a>.
         </div>
     </div>
   );
